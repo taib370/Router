@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/images/router page.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Router Page</title>
+</head>
+<style>
+    body{
+        background: rgb(235, 232, 232);
+    }
+    .parent{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 500px;
+        height: 300px;
+        border: none;
+        text-align: center;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 1px 2px 20px black;
+    }
+    span{
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        font-size: auto;
+        font-weight: 900;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 30px;
+        margin-top: -50px;
+    }
+    img{
+        position: absolute;
+        font-size: auto;
+        font-weight: 900;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 80px;
+        width: 100px;
+    }
+    @media (max-width: 600px) {
+        .parent {
+            width: 80%;
+            height: 300px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    }
+</style>
+<body>
+    <div class="parent">
+        <span>This Page Not Available For Now</span>
+        <img src="/images/error.svg" alt="#">
+    </div>
+</body>
+</html>
